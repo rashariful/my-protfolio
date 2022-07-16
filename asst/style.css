@@ -1,0 +1,123 @@
+:root{
+    --body-color:#000;
+    --primary-color:#f15a24;
+    --secondary-color:#232F3E;
+    --title-color:#ddd;
+    --sub-title-color:#ddd;
+    --para-color:#ddd;
+    --title-color:#ddd;
+
+    /* ============Margin========== */
+    --mb-s:2rem;
+    --mb-m:3rem;
+    --mb-l:9rem;
+    --mt-s: 2rem;
+    --mt-m: 3rem;
+    --mt-l: 9rem;
+}
+    /* ============comon css========== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F0F2F5;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+section {
+      /* padding: 4rem 0 2rem; */
+}
+    /* ============navbar Design ========== */
+header{
+    padding: 0 10%;
+    background-color: #fff;
+}
+.nav-area{
+    padding: 16px 0;
+}
+.nav-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-area ul li{
+    display: inline-block;
+    padding: 10px 15px;
+    /* margin-left: calc(30px); */
+}
+.nav-area ul li a{
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+.logo-r{
+    color: var(--primary-color);
+}
+.btn{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.nav-btn:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+/* ============Hero section========== */
+.hero-area{
+    background-image: url(../img/shapes/Frame\ 57.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    width: 80%;
+}
+.hero-title{
+    color: var(--secondary-color);
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+.hero-para{
+    margin-bottom: var(--mb-s);
+    font-size: 24px;
+    text-transform: capitalize;
+    color: var(--secondary-color);
+}
+.hero-img{
+    width: 480px;
+    height: auto;
+}
+.hero-btn{
+    background-color: #f15a24;
+    color: #fff;
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 4px;
+}

@@ -115,9 +115,14 @@ header{
     height: auto;
 }
 .hero-btn{
-    background-color: #f15a24;
+    background-color:var(--primary-color);
     color: #fff;
     margin-top: 30px;
     padding: 10px 30px;
     border-radius: 4px;
+    text-transform: capitalize;
+}
+.hero-btn:hover {
+    background-color:var(--secondary-color);
+
 }
